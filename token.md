@@ -1,7 +1,5 @@
 ```js
-$(window).bind('beforeunload', function(eventObject) {
-  localStorage.removeItem('TOKEN')
-})
+$(window).bind('beforeunload', () => localStorage.removeItem('TOKEN'))
 
 export default {
   get() {
