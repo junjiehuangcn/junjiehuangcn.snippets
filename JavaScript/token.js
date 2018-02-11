@@ -1,4 +1,3 @@
-```js
 $(window).bind('beforeunload', () => localStorage.removeItem('TOKEN'))
 
 export default {
@@ -32,6 +31,3 @@ export default {
     sessionStorage.removeItem('TOKEN')
   }
 }
-
-```
-2
