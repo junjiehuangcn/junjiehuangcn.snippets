@@ -31,5 +31,3 @@ export default {
     sessionStorage.removeItem('TOKEN')
   }
 }
-
-// 1
